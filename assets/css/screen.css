@@ -582,7 +582,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 }
 
 .post-card-header {
-    margin: 20px 0 0;
+    margin: 20px 0 10px 0;
 }
 
 .post-feed .no-image .post-card-content-link {
@@ -995,7 +995,7 @@ is the very first element in the post content */
 }
 
 /* Now the content typography styles */
-.gh-content a:not(.gh-post-upgrade-cta a):not(.kg-bookmark-container):not(.kg-btn):not(.kg-nft-card-container) {
+.gh-content a:not(.kg-bookmark-container):not(.kg-btn):not(.kg-nft-card-container) {
     color: var(--ghost-accent-color);
     text-decoration: underline;
     word-break: break-word;
@@ -1007,13 +1007,11 @@ is the very first element in the post content */
 .gh-content > dl,
 .gh-content > p,
 .kg-callout-text,
-.kg-toggle-content > ol,
-.kg-toggle-content > ul,
 .kg-toggle-content > p {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 2.1rem;
-    line-height: 1.6em;
+    font-size: 2rem;
+    line-height: 1.8em;
 }
 
 .has-sans-body .gh-content > blockquote,
@@ -1022,8 +1020,6 @@ is the very first element in the post content */
 .has-sans-body .gh-content > dl,
 .has-sans-body .gh-content > p,
 .has-sans-body .kg-callout-text,
-.has-sans-body .kg-toggle-content > ol,
-.has-sans-body .kg-toggle-content > ul,
 .has-sans-body .kg-toggle-content > p {
     font-family: var(--font-sans);
 }
@@ -1608,7 +1604,7 @@ iframe.instagram-media + script + :not([id]) {
 .site-footer {
     position: relative;
     margin: 40px 0 0 0;
-    padding: 40px 4vmin 140px;
+    padding: 40px 4vmin 40px;
     color: #fff;
     background: color-mod(var(--color-darkgrey) l(-5%));
 }
